@@ -8,37 +8,28 @@
   background-color: #ECF1F2;
   width: 500px;
   height: 500px;
-  margin: auto;
   position: relative;
   line-height: 100px;
   font-weight: bold;
   font-size: 30px;
+  margin: auto;
 }
 
 
 .cream {
   background-color: #ffefd3;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 40px;
   left: 200px;
 }
 
 .cobalt {
   background-color: #7084de;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 120px;
   left: 280px;
 }
 
 .ocean {
   background-color: #d0ecea;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 1;
@@ -46,9 +37,6 @@
 
 .brown {
   background-color: #8d7a5e;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 2;
@@ -56,9 +44,6 @@
 
 .blue {
   background-color: #9fd6d2;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 3;
@@ -67,9 +52,6 @@
 
 .milk {
   background-color: #fffee4;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 4;
@@ -77,9 +59,6 @@
 
 .beige {
   background-color: #deae70;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 5;
@@ -87,9 +66,6 @@
 
 .pink {
   background-color: #de70cf;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 6;
@@ -105,11 +81,9 @@
   line-height: 100px;
   font-weight: bold;
   font-size: 30px;
-}
-
-div {
   text-align: center;
 }
+
 
 .pink::after{
   content: "";
@@ -119,5 +93,12 @@ div {
   background-color: #ffefd3;
   left: 80px;
   top: 0px;
+}
+
+.boxs {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
 }
 

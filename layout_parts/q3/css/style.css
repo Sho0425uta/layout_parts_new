@@ -3,42 +3,37 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
-table {
+.tablebox {
   text-align: center;
   table-layout: fixed;
   width: 100%;
 }
 
-table th {
+.tablebox th {
   font-size: 18px;
   color: #ffffff;
   line-height: 26px;
   background-color: #2244aa;
 }
 
-table td {
+.tablebox td {
   font-size: 16px;
   line-height: 22px;
   background-color: #ecf1f2;
 }
 
 th, td {
-padding: 10px 0px;
-border: solid #dedede 1px;
+  padding: 10px 0px;
+  border: solid #dedede 1px;
 }
 
-td:nth-child(1) {
-background:#2244aa;
-color: #ffffff;
-font-size: 18px;
-line-height: 26px;
+
+tr:nth-child(2n+1) td:nth-child(n+2) {
+  background:#ffffff;
 }
 
-tr:nth-child(2n) td:nth-child(n+2) {
-background:#ffffff;
+tbody:last-child {
+  border-top: 2px dashed #000 ;
 }
 
-tr:last-child {
-border-top: dashed #000 2px;
-}
 

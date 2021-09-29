@@ -10,6 +10,7 @@
   display: table;
   table-layout: fixed;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .orange {
