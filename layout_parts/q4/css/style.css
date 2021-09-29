@@ -3,3 +3,48 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.graybox {
+  background-color: #eff3f4;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  padding: 20px;
+}
+
+.orange {
+  background-color: #fbc8b8;
+  width: 100px;
+}
+
+.pink {
+  background-color: #e0abd9;
+}
+
+.blue {
+  background-color: #b6d8ed;
+  width: 100px;
+}
+
+.yellow {
+  background-color: #e5d32e;
+}
+
+.red {
+  background-color: #ec8f9a;
+}
+
+.green {
+  background-color: #8fdcad;
+  width: 500px  ;
+}
+
+.graybox >div{
+  display: table-cell;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.graybox:first-child {
+  padding: 20px 20px 0px 20px;
+}

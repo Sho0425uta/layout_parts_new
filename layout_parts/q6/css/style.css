@@ -3,3 +3,74 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.tex {
+  text-align: center;
+}
+
+.hidari {
+  background-color: #e6f2ff;
+  width: 70px;
+  padding: 10px;
+  display: inline-block
+}
+
+.migi {
+  background-color: #e6f2ff;
+  width: 70px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.oyatable {
+  text-align: center;
+  display: table;
+}
+
+.tablebox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tabletext {
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+.floya {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fle {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.koteioya {
+  position: relative;
+}
+
+.koteibox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.kahenn {
+  position: absolute;
+}
+
+.kahenbox {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
